@@ -1,1 +1,25 @@
-
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+        border: 2px dotted powderblue;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+    border: 2px solid coral;
+}
+header{
+    border: 2px solid peru;
+}
+footer{
+    border: 2px solid peru;
+}
